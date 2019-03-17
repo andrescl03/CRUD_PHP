@@ -7,7 +7,7 @@ session_start(); ?>
     <center><h1 class="text-info font-weight-bold">Registro de Alumno</h1></center>
     <div class="row">  
         
-        <div class="col-3">
+        <div class="col-12 col-md-5 col-lg-3">
         <div class="card border-success">
             <div class="card-header bg-primary">
                 <center>  <label class="font-weight-bold"> Formulario de Alumnos</label></center> 
@@ -88,8 +88,9 @@ session_start(); ?>
         </div>
         </div>
         
-        <div class="col-9">
+        <div class="col-12 col-md-7 col-lg-9">
             
+			<div class="table-responsive">
             <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
@@ -107,6 +108,7 @@ session_start(); ?>
                     
                 </tbody>
             </table>
+			</div>
         </div>
     </div>
     
